@@ -11,7 +11,7 @@ class MainTest {
     @Test
     @Timeout(value = 22, unit = TimeUnit.SECONDS)
     @Disabled
-    void d() throws Exception {
+    void shouldBeRunNotMoreThanTimeout() throws Exception {
         Main.main(null);
     }
 }
